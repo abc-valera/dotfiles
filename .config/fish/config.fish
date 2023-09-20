@@ -18,3 +18,6 @@ set -g fish_greeting
 
 # starship theme
 starship init fish | source
+
+# dotnet tab completion
+complete -f -c dotnet -a "(dotnet complete (commandline -cp))"
