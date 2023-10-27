@@ -1,6 +1,9 @@
-[user]
-	name = abc-valera
-	email = zoocity14@gmail.com
+[includeIf "gitdir:~/dev/personal/"] # include for all .git projects under personal/ 
+	path = ~/dev/personal/.gitconfig.personal
+ 
+[includeIf "gitdir:~/dev/work/"] # include for all .git projects under work/
+	path = ~/dev/work/.gitconfig.work
+ 
 [core]
 	editor = vim
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
