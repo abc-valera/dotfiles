@@ -1,4 +1,4 @@
-set -gx GOPATH $HOME/dev/go
+set -gx GOPATH $HOME/.go
 set -gx GOBIN $GOPATH/bin
 set -gx DOTNET_ROOT $HOME/.dotnet
 
