@@ -11,7 +11,7 @@ For more info info about dotfiles check this: https://www.atlassian.com/git/tuto
 6. Make fish the default shell ```chsh -s /usr/bin/fish```
 7. Generate ssh keys: ```ssh-keygen -t ed25519 -C "zoocity14@gmail.com"```, with the names ```github_personal``` and ```github_work```  (for more context https://blog.gitguardian.com/8-easy-steps-to-set-up-multiple-git-accounts/).
 
-## Loog
+## Look
 1. Icons: Papirus Icons
 2. Cursor: Captaine Cursors
 
