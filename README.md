@@ -3,7 +3,7 @@
 For more info info about dotfiles check this: https://www.atlassian.com/git/tutorials/dotfiles
 
 ## Setup 
-1. Clone the bare repo: git clone --bare <git-repo-url> $HOME/.dotfiles
+1. Clone the bare repo: git clone --bare github.com/abc-valera/dotfiles $HOME/.dotfiles
 2. Checkout the repo: dfconfig checkout
 3. Install Fish shell
 4. Install Starship prompt
