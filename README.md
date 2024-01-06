@@ -13,7 +13,7 @@ For more info info about dotfiles check this: https://www.atlassian.com/git/tuto
 
 ## Programming
 1. Vim
-2. Docker
+2. Docker/Podman
 3. Go
 
 ## Software
