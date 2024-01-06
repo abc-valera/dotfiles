@@ -7,6 +7,7 @@ For more info info about dotfiles check this: https://www.atlassian.com/git/tuto
 2. Checkout the repo: dfconfig checkout
 3. Install Fish shell
 4. Install Starship prompt
+5. Create two SSH keys (```id_rsa_git_personal``` and ```id_rsa_git_work```) in ```~/.ssh``` (then the keys needed to be added into GitHub accounts). This is for multiple github accounts in ```~/dev``` directory (for more context https://blog.gitguardian.com/8-easy-steps-to-set-up-multiple-git-accounts/).
 
 ## Programming
 1. Vim
