@@ -8,7 +8,8 @@ For more info info about dotfiles check this: https://www.atlassian.com/git/tuto
 3. Checkout the repo: ```/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME checkout```
 4. Install Fish shell
 5. Install Starship prompt
-6. Create two SSH keys (```id_rsa_git_personal``` and ```id_rsa_git_work```) in ```~/.ssh``` (then the keys needed to be added into GitHub accounts). This is for multiple github accounts in ```~/dev``` directory (for more context https://blog.gitguardian.com/8-easy-steps-to-set-up-multiple-git-accounts/).
+6. Make fish the default shell ```chsh -s /usr/bin/fish```
+7. Create two SSH keys (```id_rsa_git_personal``` and ```id_rsa_git_work```) in ```~/.ssh``` (then the keys needed to be added into GitHub accounts). This is for multiple github accounts in ```~/dev``` directory (for more context https://blog.gitguardian.com/8-easy-steps-to-set-up-multiple-git-accounts/).
 
 ## Programming
 1. Vim
