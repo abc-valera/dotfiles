@@ -19,6 +19,7 @@ For more info info about dotfiles check this: https://www.atlassian.com/git/tuto
 1. Vim
 2. Docker / Podman
 3. Go
+4. go-task
 
 ## Software
 1. Web Browser: Firefox
