@@ -23,7 +23,7 @@ For more info info about dotfiles check this: https://www.atlassian.com/git/tuto
 ## Software
 1. Web Browser: Firefox
 2. Messaging: Telegram
-3. Music: Spotify / ncspot
+3. Music: Spotify
 4. Video: VLC
 5. IDE: VSCode
 6. Graphics: Gimp
