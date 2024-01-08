@@ -16,10 +16,11 @@ For more info info about dotfiles check this: https://www.atlassian.com/git/tuto
 2. Cursor: Captaine Cursors
 
 ## Programming
-1. Vim
-2. Docker / Podman
-3. Go
-4. go-task
+1. GCC
+2. Vim
+3. Docker / Podman
+4. Go
+5. go-task
 
 ## Software
 1. Web Browser: Firefox
