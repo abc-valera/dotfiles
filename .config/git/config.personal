@@ -1,0 +1,8 @@
+[user]
+        name = abc-valera
+        email = zoocity14@gmail.com 
+[github]
+	user = "abc-valera"
+ 
+[core]
+sshCommand = "ssh -i ~/.ssh/github_personal"
