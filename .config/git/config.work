@@ -1,0 +1,9 @@
+[user]                             
+        name = abc-valeriy
+        email = valeriy.tymofieiev@gmail.com
+[github]
+        user = "abc-valeriy"
+ 
+[core]
+sshCommand = "ssh -i ~/.ssh/id_ed_github_work"
+
