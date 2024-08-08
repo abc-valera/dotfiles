@@ -5,4 +5,4 @@
 	user = "abc-valera"
  
 [core]
-sshCommand = "ssh -i ~/.ssh/github_personal"
+sshCommand = "ssh -i ~/.ssh/id_ed_github_personal"
