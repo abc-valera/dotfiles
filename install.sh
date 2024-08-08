@@ -54,6 +54,6 @@ curl -sS https://starship.rs/install.sh | sudo sh -s -- --yes >/dev/null
 # (if the file already existed it overrides corresponding file from the dotfiles directory,
 # so they should be restored next)
 sudo stow --adopt .
-sudo git restore .
+git restore .
 
 echo "Dotfiles installed! 🎉"
