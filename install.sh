@@ -34,21 +34,20 @@ if [[ -f /etc/redhat-release ]]; then
     echo "Fedora detected 🤠"
     dnf update -y && dnf install -y \
         stow \
-        fish >/dev/null
+        fish
 elif [[ -f /etc/debian_version ]]; then
     echo "Debian detected 🍥"
-    export DEBIAN_FRONTEND=noninteractive &&
-        apt-get update >/dev/null &&
-        apt-get -y install --no-install-recommends \
-            stow \
-            fish >/dev/null
+    apt-get update -y &&
+    apt-get -y install --no-install-recommends \
+        stow \
+        fish
 else
     echo "This script is intended for Fedora or Debian systems only 🚩"
     exit 1
 fi
 
 # Install starship prompt
-curl -sS https://starship.rs/install.sh | sudo sh -s -- --yes >/dev/null
+curl -sS https://starship.rs/install.sh | sudo sh -s -- --yes
 
 # Use stow to create symlinks for all files from the directory
 # (if the file already existed it overrides corresponding file from the dotfiles directory,
