@@ -1,6 +1,11 @@
 # dotfiles
 
-This repo contains all the dotfiles I use.
+This repo contains all the dotfiles for:
+
+ - Bash
+ - Fish
+ - Git
+ - Starship
 
 ## Requirement
 
