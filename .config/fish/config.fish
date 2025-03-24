@@ -14,3 +14,10 @@ set -g fish_greeting
 # starship theme
 starship init fish | source
 
+
+# pnpm
+set -gx PNPM_HOME "/home/abc-valera/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
