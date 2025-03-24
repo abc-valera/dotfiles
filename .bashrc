@@ -11,3 +11,4 @@ export GREP_OPTIONS=' — color=auto'
 
 # Starship theme
 eval "$(starship init bash)"
+. "$HOME/.cargo/env"
