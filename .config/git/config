@@ -5,6 +5,12 @@
 # include work email, name for all .git projects under work/
 [includeIf "gitdir:~/dev/work/"]
 	path = ~/.config/git/config.work
+
+[includeIf "gitdir:~/dev/upwork/"]
+        path = ~/.config/git/config.upwork
+
+[url "ssh://git@github.com/"]
+    insteadOf = https://github.com/
  
 [core]
 	editor = vim
