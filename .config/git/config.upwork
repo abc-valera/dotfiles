@@ -1,9 +1,0 @@
-[user]
-        name = treineke6
-        email = taylorreineke6@gmail.com
-[github]
-	user = "treineke6"
-[url "ssh://git@github.com/"]
-    insteadOf = https://github.com/ 
-[core]
-sshCommand = "ssh -i ~/.ssh/vgpc"
