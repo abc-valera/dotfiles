@@ -32,13 +32,14 @@ fi
 # Check if the script is runninng in Fedora or Debian
 if [[ -f /etc/redhat-release ]]; then
     echo "Fedora detected 🤠"
-    dnf update -y && dnf install -y \
+    sudo dnf update -y
+    sudo dnf install -y \
         stow \
         fish
 elif [[ -f /etc/debian_version ]]; then
     echo "Debian detected 🍥"
-    apt-get update -y &&
-    apt-get -y install --no-install-recommends \
+    sudo apt-get update -y
+    sudo apt-get -y install --no-install-recommends \
         stow \
         fish
 else
