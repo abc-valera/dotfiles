@@ -21,7 +21,3 @@ starship init fish | source
 
 # set vi bindings
 set -g fish_key_bindings fish_vi_key_bindings
-
-# bun
-set --export BUN_INSTALL "$HOME/.bun"
-set --export PATH $BUN_INSTALL/bin $PATH
