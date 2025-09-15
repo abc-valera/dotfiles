@@ -1,7 +1,8 @@
 # .bashrc
 
 export EDITOR=vim
-export GREP_OPTIONS=' — color=auto'
+
+alias grep='grep --color=auto'
 
 # Starship theme
 eval "$(starship init bash)"
