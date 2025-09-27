@@ -1,31 +1,24 @@
-# include personal email, name by default
-[include]
-	path = ~/.config/git/config.personal
+[user]
+	name = abc-valera
+	email = valeriy.tymofieiev@gmail.com
 
-# include work email, name for all .git projects under work/
-[includeIf "gitdir:~/dev/work/"]
-	path = ~/.config/git/config.work
+[github]
+	user = abc-valera
 
-[url "ssh://git@github.com/"]
-    insteadOf = https://github.com/
- 
-[color]
-	ui = auto
-[color "branch"]
-	current = yellow bold
-	local = green bold
-	remote = cyan bold
-[color "diff"]
-	meta = yellow bold
-	frag = magenta bold
-	old = red bold
-	new = green bold
-	whitespace = red reverse
-[color "status"]
-	added = green bold
-	changed = yellow bold
-	untracked = red bold
+[init]
+	defaultBranch = main
+
+[commit]
+	verbose = true
+
+[help]
+	autocorrect = 10
+
 [diff]
-	tool = vimdiff
-[difftool]
-	prompt = false
+	algorithm = histogram
+
+[branch]
+	sort = -committerdate
+
+[url "git@github.com:"]
+	insteadOf = https://github.com/

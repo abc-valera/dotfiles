@@ -1,23 +1,10 @@
-# Set golang variables
-set -gx GOPATH $HOME/.go
-set -gx GOBIN $GOPATH/bin
+#!/usr/bin/env fish
 
-# Add custom executables to path
-set --prepend PATH $GOBIN
-set --prepend PATH /usr/local/go/bin
-set --prepend PATH $HOME/.cargo/bin
-set --prepend PATH $HOME/.local/bin
-
-###################################
-# Interactive mode configurations #
-###################################
+# If not running interactively, don't do anything
 status is-interactive || exit
 
-# suppress the default login message
-set -g fish_greeting
+set fish_greeting # Disable greeting
 
-# starship theme
-starship init fish | source
+fish_config theme choose 'Snow Day'
 
-# set vi bindings
-set -g fish_key_bindings fish_vi_key_bindings
+starship init fish | source # Enable starship prompt

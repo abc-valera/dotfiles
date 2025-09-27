@@ -1,9 +1,0 @@
-[user]                             
-        name = abc-valeriy
-        email = abc.valera.04@gmail.com
-[github]
-        user = "abc-valeriy"
- 
-[core]
-sshCommand = "ssh -i ~/.ssh/id_ed_github_work"
-

@@ -1,8 +1,0 @@
-[user]
-        name = abc-valera
-        email = valeriy.tymofieiev@gmail.com 
-[github]
-	user = "abc-valera"
- 
-[core]
-sshCommand = "ssh -i ~/.ssh/id_ed_github_personal"
