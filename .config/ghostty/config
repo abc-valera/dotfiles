@@ -1,0 +1,5 @@
+# This is the configuration file for Ghostty.
+
+background = #ffffff
+font-family = "BlexMono Nerd Font Mono"
+font-style = "Text"
