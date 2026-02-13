@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
-# If not running interactively, don't do anything
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOBIN
+
+# Return if not running interactively
 [[ $- != *i* ]] && return
 
 eval "$(starship init bash)"
