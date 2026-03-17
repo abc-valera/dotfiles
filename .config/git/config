@@ -20,6 +20,8 @@
 [branch]
 	sort = -committerdate
 
-# This is used to allow temporary changes for the git configurations (e.g. name and email)
-[includeIf "gitdir:~/repos/"]
-    path = ~/repos/.gitconfig
+# Here all the different git users' configuration overrides are listed
+[includeIf "gitdir:~/repos/abc-valera/"]
+    path = ~/repos/abc-valera/.gitconfig
+[includeIf "gitdir:~/repos/valeriy-o3c/"]
+    path = ~/repos/valeriy-o3c/.gitconfig
