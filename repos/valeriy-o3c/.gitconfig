@@ -1,14 +1,9 @@
 [user]
         email = valeriy@o3c.no
-
+        signingKey = /home/abc-valera/.ssh/id_ed_o3c
 [gpg]
         format = ssh
-
-[gpg "ssh"]
-        signingKey = /home/abc-valera/.ssh/id_ed_o3c
-
 [commit]
         gpgSign = true
-
 [tag]
         gpgSign = true
