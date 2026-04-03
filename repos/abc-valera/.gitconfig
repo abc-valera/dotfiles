@@ -1,14 +1,9 @@
 [user]
         email = valeriy.tymofieiev@gmail.com
-
+        signingKey = /home/abc-valera/.ssh/id_ed_personal
 [gpg]
         format = ssh
-
-[gpg "ssh"]
-        signingKey = /home/abc-valera/.ssh/id_ed_personal
-
 [commit]
         gpgSign = true
-
 [tag]
         gpgSign = true

@@ -1,15 +1,23 @@
 [user]
 	name = abc-valera
 	email = valeriy.tymofieiev@gmail.com
+	signingKey = /home/abc-valera/.ssh/id_ed_personal
 
 [github]
 	user = abc-valera
+
+[gpg]
+	format = ssh
 
 [init]
 	defaultBranch = main
 
 [commit]
 	verbose = true
+	gpgSign = true
+
+[tag]
+	gpgSign = true
 
 [help]
 	autocorrect = 10
