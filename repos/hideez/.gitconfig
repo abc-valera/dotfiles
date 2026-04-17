@@ -3,5 +3,8 @@
         email = valeriy.tymofieiev@gmail.com
         signingKey = /home/abc-valera/.ssh/id_ed_personal
 
+[core]
+        sshCommand = ssh -i /home/abc-valera/.ssh/id_ed_personal
+
 [github]
 	user = abc-valera

@@ -3,5 +3,8 @@
         email = valeriy@o3c.no
         signingKey = /home/abc-valera/.ssh/id_ed_o3c
 
+[core]
+        sshCommand = ssh -i /home/abc-valera/.ssh/id_ed_o3c
+
 [github]
         user = valeriy-o3c
