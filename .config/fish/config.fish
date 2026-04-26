@@ -9,6 +9,8 @@ status is-interactive || exit
 
 set fish_greeting # Disable greeting
 
+fish_vi_key_bindings # Enable vi key bindings
+
 fish_config theme choose Tomorrow
 
 starship init fish | source # Enable starship prompt
