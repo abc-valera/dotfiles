@@ -16,6 +16,9 @@
 [gpg]
         format = ssh
 
+[gpg "ssh"]
+        defaultKeyCommand = ssh-add -l
+
 [commit]
         gpgSign = true
 
