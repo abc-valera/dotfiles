@@ -15,8 +15,8 @@ set --global fish_color_operator 00a6b2
 set --global fish_color_param 4271ae
 set --global fish_color_quote 718c00
 set --global fish_color_redirection 3e999f
-set --global fish_color_search_match white --background=brightblack --bold
-set --global fish_color_selection white --background=brightblack --bold
+set --global fish_color_search_match ffffff --background=brightblack --bold
+set --global fish_color_selection ffffff --background=brightblack --bold
 set --global fish_color_status red
 set --global fish_color_user brgreen
 set --global fish_color_valid_path --underline
